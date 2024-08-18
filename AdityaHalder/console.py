@@ -29,10 +29,18 @@ if os.path.exists("Internal"):
 
 #-----------------------------------------------------------------------------------------------
 # Aishu
-API_ID = int(getenv("API_ID", "8045459"))
-API_HASH = getenv("API_HASH", "e6d1f09120e17a4372fe022dde88511b")
-BOT_TOKEN = getenv("BOT_TOKEN", "7068876137:AAEO6UXBfVcj9BMPXsbdAgApCntlXmYjNTw")
-STRING_SESSION = getenv("STRING_SESSION", "BQDMBnkAYiOVd1XgRlwY7fGlRrmYnn79K2KzLfsXiVAFVRYYfmTzSslg4VMO9zi3V-8UvChSAZJiu4OFnNCHnFYKstELWLGKF4KW70ml64zlF8mgCnAtUPDvJXpJtgrIcjZr-ieZAgda99Giv_ivVbh2V5wLqgSYUbSZ_GKGM4usnJvQFZg6YGMoTMWKQPuZhxphI74-_PyXED5xHpoYpBjbaw00wy8RKJzw3e_NMpXwID5Io1P2uBlx9vbmLcJMHO7DK4YvwsCXQUBNhskfzSiWQqpcVH_eZEW2NN-1uWKDsWbVZPY4PDjraaBVhF5rOi_MVx4oBTAzCV1hT2BGsljeQb7AAAAAEyRzmXAA")
+#API_ID = int(getenv("API_ID", "8045459"))
+#API_HASH = getenv("API_HASH", "e6d1f09120e17a4372fe022dde88511b")
+#BOT_TOKEN = getenv("BOT_TOKEN", "7068876137:AAEO6UXBfVcj9BMPXsbdAgApCntlXmYjNTw")
+#STRING_SESSION = getenv("STRING_SESSION", "BQDMBnkAYiOVd1XgRlwY7fGlRrmYnn79K2KzLfsXiVAFVRYYfmTzSslg4VMO9zi3V-8UvChSAZJiu4OFnNCHnFYKstELWLGKF4KW70ml64zlF8mgCnAtUPDvJXpJtgrIcjZr-ieZAgda99Giv_ivVbh2V5wLqgSYUbSZ_GKGM4usnJvQFZg6YGMoTMWKQPuZhxphI74-_PyXED5xHpoYpBjbaw00wy8RKJzw3e_NMpXwID5Io1P2uBlx9vbmLcJMHO7DK4YvwsCXQUBNhskfzSiWQqpcVH_eZEW2NN-1uWKDsWbVZPY4PDjraaBVhF5rOi_MVx4oBTAzCV1hT2BGsljeQb7AAAAAEyRzmXAA")
+#MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
+#LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002063555777"))
+
+#Kudimagazh
+API_ID = int(getenv("API_ID", "26582881"))
+API_HASH = getenv("API_HASH", "eec3eb9a652b23ab62df08a7885b2793")
+BOT_TOKEN = getenv("BOT_TOKEN", "7103911386:AAEvyDGm43vQ003kKDRkedTV4-AldvLfXjk")
+STRING_SESSION = getenv("STRING_SESSION", "BQGVn2EAhYa8xwRGpGZ_6R1sWvr_P4mIlDFx8dQ24fFQHAihKxag2NGt2cqNQfibVcpvqjeo5VQ7hmXUTSoiRyimJNyEyBwKGItXDsRf5I33xUQaOpHYxMcfwxpl_BXdPNzxKG0-FGxVHdcq7hiG3hx9bcO4ieTfPxyJ9LGwf5s9AULpfClzAKfYrpMAbZSux9ZQyF0F5rmnoc9xqAXPlDwgFveLQUubPLK7UmD6jc3aolUuNGbix8d8ZW8aNEHkAQeZquskOUU4hoR6kEOHmCRRDRb9_zl4iNz4ueyCiA_vI611EkApvikq0k8qTE7SfSxzsXp5615J-xDPuFww2GRNWIH0IgAAAAGkzbnBAA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002063555777"))
 
